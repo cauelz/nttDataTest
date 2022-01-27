@@ -34,7 +34,7 @@ trigger AccountTrigger on Account (before insert, before update, after insert, a
             }
         }
     }
-    upsert newTaskList;
-    upsert newOppList;
+    insert newTaskList;
+    insert newOppList;
 
 }
