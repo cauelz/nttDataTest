@@ -1,0 +1,136 @@
+{
+  "summary": {
+    "outcome": "Passed",
+    "testsRan": 2,
+    "passing": 2,
+    "failing": 0,
+    "skipped": 0,
+    "passRate": "100%",
+    "failRate": "0%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Jan 27 2022 6:57:38 PM",
+    "testExecutionTimeInMs": 35,
+    "testTotalTimeInMs": 35,
+    "commandTimeInMs": 494,
+    "hostname": "https://harpiacloud119-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000002MljWEAS",
+    "username": "cauelz@nttdata.com.br",
+    "testRunId": "7078c00005x59Xz",
+    "userId": "0058c000008v1izAAA",
+    "totalLines": 8,
+    "coveredLines": 8,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "100%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000003AhWYEA0",
+      "queueItemId": "7098c000000lG0CAAU",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00005x59XzAAI",
+      "methodName": "ValidaCNPJTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8c000007ZRfVAAW",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 29,
+      "testTimestamp": "2022-01-27T21:57:44.000+0000",
+      "fullName": "UtilsTest.ValidaCNPJTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Utils",
+          "apexClassOrTriggerId": "01p8c000007ZQmjAAG",
+          "apexTestClassId": "01p8c000007ZRfVAAW",
+          "apexTestMethodName": "ValidaCNPJTest",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 4,
+          "percentage": "50%",
+          "coverage": {
+            "coveredLines": [
+              11,
+              13,
+              14,
+              16
+            ],
+            "uncoveredLines": [
+              3,
+              4,
+              5,
+              7
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8c000003AhWZEA0",
+      "queueItemId": "7098c000000lG0CAAU",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00005x59XzAAI",
+      "methodName": "ValidaCPFTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8c000007ZRfVAAW",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 6,
+      "testTimestamp": "2022-01-27T21:57:44.000+0000",
+      "fullName": "UtilsTest.ValidaCPFTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Utils",
+          "apexClassOrTriggerId": "01p8c000007ZQmjAAG",
+          "apexTestClassId": "01p8c000007ZRfVAAW",
+          "apexTestMethodName": "ValidaCPFTest",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 3,
+          "percentage": "63%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              5,
+              7,
+              11
+            ],
+            "uncoveredLines": [
+              13,
+              14,
+              16
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c000007ZQmjAAG",
+      "name": "Utils",
+      "type": "ApexClass",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        5,
+        7,
+        11,
+        13,
+        14,
+        16
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  [
+    {
+      "apexClassOrTriggerName": "Utils",
+      "apexClassOrTriggerId": "01p8c000007ZQmjAAG",
+      "apexTestClassId": "01p8c000007ZRfVAAW",
+      "apexTestMethodName": "ValidaCNPJTest",
+      "numLinesCovered": 4,
+      "numLinesUncovered": 4,
+      "percentage": "50%",
+      "coverage": {
+        "coveredLines": [
+          11,
+          13,
+          14,
+          16
+        ],
+        "uncoveredLines": [
+          3,
+          4,
+          5,
+          7
+        ]
+      }
+    }
+  ],
+  [
+    {
+      "apexClassOrTriggerName": "Utils",
+      "apexClassOrTriggerId": "01p8c000007ZQmjAAG",
+      "apexTestClassId": "01p8c000007ZRfVAAW",
+      "apexTestMethodName": "ValidaCPFTest",
+      "numLinesCovered": 5,
+      "numLinesUncovered": 3,
+      "percentage": "63%",
+      "coverage": {
+        "coveredLines": [
+          3,
+          4,
+          5,
+          7,
+          11
+        ],
+        "uncoveredLines": [
+          13,
+          14,
+          16
+        ]
+      }
+    }
+  ]
+]

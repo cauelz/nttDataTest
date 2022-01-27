@@ -1,0 +1,144 @@
+{
+  "summary": {
+    "outcome": "Failed",
+    "testsRan": 2,
+    "passing": 1,
+    "failing": 1,
+    "skipped": 0,
+    "passRate": "50%",
+    "failRate": "50%",
+    "skipRate": "0%",
+    "testStartTime": "Thu Jan 27 2022 6:55:10 PM",
+    "testExecutionTimeInMs": 37,
+    "testTotalTimeInMs": 37,
+    "commandTimeInMs": 519,
+    "hostname": "https://harpiacloud119-dev-ed.my.salesforce.com",
+    "orgId": "00D8c000002MljWEAS",
+    "username": "cauelz@nttdata.com.br",
+    "testRunId": "7078c00005x591j",
+    "userId": "0058c000008v1izAAA",
+    "totalLines": 8,
+    "coveredLines": 8,
+    "testRunCoverage": "100%",
+    "orgWideCoverage": "100%"
+  },
+  "tests": [
+    {
+      "id": "07M8c000003AhW9EAK",
+      "queueItemId": "7098c000000lG02AAE",
+      "stackTrace": null,
+      "message": null,
+      "asyncApexJobId": "7078c00005x591jAAA",
+      "methodName": "ValidaCNPJTest",
+      "outcome": "Pass",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8c000007ZRfVAAW",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 31,
+      "testTimestamp": "2022-01-27T21:55:11.000+0000",
+      "fullName": "UtilsTest.ValidaCNPJTest",
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Utils",
+          "apexClassOrTriggerId": "01p8c000007ZQmjAAG",
+          "apexTestClassId": "01p8c000007ZRfVAAW",
+          "apexTestMethodName": "ValidaCNPJTest",
+          "numLinesCovered": 4,
+          "numLinesUncovered": 4,
+          "percentage": "50%",
+          "coverage": {
+            "coveredLines": [
+              11,
+              13,
+              14,
+              16
+            ],
+            "uncoveredLines": [
+              3,
+              4,
+              5,
+              7
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "07M8c000003AhWAEA0",
+      "queueItemId": "7098c000000lG02AAE",
+      "stackTrace": "Class.UtilsTest.ValidaCPFTest: line 16, column 1",
+      "message": "System.AssertException: Assertion Failed: Não é um CPF válido: Expected: true, Actual: false",
+      "asyncApexJobId": "7078c00005x591jAAA",
+      "methodName": "ValidaCPFTest",
+      "outcome": "Fail",
+      "apexLogId": null,
+      "apexClass": {
+        "id": "01p8c000007ZRfVAAW",
+        "name": "UtilsTest",
+        "namespacePrefix": null,
+        "fullName": "UtilsTest"
+      },
+      "runTime": 6,
+      "testTimestamp": "2022-01-27T21:55:11.000+0000",
+      "fullName": "UtilsTest.ValidaCPFTest",
+      "diagnostic": {
+        "exceptionMessage": "System.AssertException: Assertion Failed: Não é um CPF válido: Expected: true, Actual: false",
+        "exceptionStackTrace": "Class.UtilsTest.ValidaCPFTest: line 16, column 1",
+        "className": "UtilsTest",
+        "compileProblem": "",
+        "lineNumber": 16,
+        "columnNumber": 1
+      },
+      "perClassCoverage": [
+        {
+          "apexClassOrTriggerName": "Utils",
+          "apexClassOrTriggerId": "01p8c000007ZQmjAAG",
+          "apexTestClassId": "01p8c000007ZRfVAAW",
+          "apexTestMethodName": "ValidaCPFTest",
+          "numLinesCovered": 5,
+          "numLinesUncovered": 3,
+          "percentage": "63%",
+          "coverage": {
+            "coveredLines": [
+              3,
+              4,
+              5,
+              7,
+              11
+            ],
+            "uncoveredLines": [
+              13,
+              14,
+              16
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "codecoverage": [
+    {
+      "apexId": "01p8c000007ZQmjAAG",
+      "name": "Utils",
+      "type": "ApexClass",
+      "numLinesCovered": 8,
+      "numLinesUncovered": 0,
+      "percentage": "100%",
+      "coveredLines": [
+        3,
+        4,
+        5,
+        7,
+        11,
+        13,
+        14,
+        16
+      ],
+      "uncoveredLines": []
+    }
+  ]
+}
