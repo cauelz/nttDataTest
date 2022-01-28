@@ -1,5 +1,5 @@
 <template>
-    <lightning-record-edit-form object-api-name="Account" record-id={recordId} >
+    <lightning-record-edit-form object-api-name="Account" record-id={recordId} onerror={errorMethod}>
         <lightning-input-field field-name="Name"> </lightning-input-field>
         <lightning-input-field field-name="AccountNumber"></lightning-input-field>
         <lightning-input-field field-name="Type"> </lightning-input-field>
